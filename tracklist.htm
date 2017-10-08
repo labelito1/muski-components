@@ -10,148 +10,248 @@
     <script src="script/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="script/muski.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="style/muski.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Quicksand|Open+Sans|Roboto" rel="stylesheet">
+    <style>
+        body>div {
+            margin: auto;
+            width: 400px;
+
+        }
+
+
+        .selection-info {
+            margin: auto;
+            position: fixed;
+            top: 0;
+            background-color: #1e8dd2;
+            height: 200px;
+        }
+
+        .selection-info div {
+            text-align: center;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .selection-info img {
+            margin: auto;
+        }
+
+        .topbar {
+            z-index: 2;
+            margin: auto;
+            position: fixed;
+            top: 0;
+            background-color: #d21e48;
+            height: 30px;
+        }
+
+    </style>
 </head>
 
 <body>
-    <div class="tracklist-container">
-        <table class="tracklist">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Título</th>
-                    <th><i class="fa fa-clock-o fa-2" aria-hidden="true"></i></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Título Uno</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>
-                        <div>
-                            Título Dos
-                        </div>
-                    </td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Título Tres</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Título Cuatro</td>
-                    <td>4:20</td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="topbar">
+
     </div>
+    <div class="selection-info">
+        <div>
+            <img src="images/Cover.jpg" width="120px" />
+        </div>
+
+    </div>
+
+
+    <!--    <div class="tracklist-topbar">Aleatorio</div>-->
+    <div>
+        <div class="tracklist-container">
+            <table class="tracklist">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Título</th>
+                        <th><i class="fa fa-clock-o fa-2" aria-hidden="true"></i></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Título Uno</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <div>
+                                Título Dos
+                            </div>
+                        </td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Título Tres</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Título Cuatro</td>
+                        <td>4:20</td>
+                    </tr>
+                    <tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd asdasdasd </td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Título Cuatro</td>
+                            <td>4:20</td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
 </body>
 <script>
     $(document).ready(function($) {
-        tracklist_clear($(".tracklist"));
-        for (i = 1; i < 100; i++) {
-            if (i < 5) {
-                tracklist_add($(".tracklist"), i, "title " + i, i, i);
-            } else {
-                tracklist_add($(".tracklist"), i, "title", "", i);
-            }
 
-        }
     });
 
 </script>
